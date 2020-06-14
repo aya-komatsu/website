@@ -8,8 +8,8 @@ html, body {
 }
 
 nav {
-    float: left;
     width: 200px;
+   
 }
 
 article {
@@ -17,8 +17,9 @@ article {
 }
 
 header {
-    color: #FF0000;
+    color: rgb(0, 148, 86);
     text-align: center;
+    background-color:rgb(255, 233, 187);
 }
 
 footer {
@@ -32,9 +33,58 @@ main {
 }
 
 img.floatLeft {
-    float: left;
-    margin-right: 15px;
+    
+    margin-right: 0px;
+    width: 100%
 }
+
+img.afbeeldingSchip1 {
+    width:100%;
+}
+
+/*https://www.w3schools.com/css/css_image_gallery.asp en example is https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery*/
+div.metLink{
+    width: 180px;
+    border: 1px solid rgb(184, 184, 184)
+}
+
+
+div.metLink:hover {
+    border: 1px solid #4CAF50
+}
+
+
+div.metLink img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    text-align: center;
+}
+
+/*div onze schepen*/
+
+div.schepenLink{
+    border: 1px solid rgb(184, 184, 184)
+}
+
+
+div.schepenLink:hover {
+    border: 1px solid #4CAF50
+}
+
+
+div.schepenLink img {
+    width: 100%;
+    height: auto;
+}
+
+div.descSchepen {
+    text-align: center;
+}
+
+
 
 .smalltext {
     font-size: 0.7em;
@@ -48,12 +98,14 @@ nav ul {
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
+
 }
+
 
 li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
+    padding: 18px 16px;
     text-decoration: none;
 }
 
