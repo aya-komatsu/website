@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(211, 231, 245);  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -17,7 +17,7 @@ article {
 }
 
 header {
-    color: rgb(0, 148, 86);
+    color: rgb(52, 98, 184);
     text-align: center;
     background-color:rgb(255, 233, 187);
 }
@@ -57,6 +57,7 @@ div.metLink:hover {
 div.metLink img {
     width: 100%;
     height: auto;
+    float: left; /*werkt niet*/
 }
 
 div.desc {
@@ -101,13 +102,49 @@ nav ul {
 
 }
 
-
 li a {
     display: block;
     color: #000;
     padding: 18px 16px;
     text-decoration: none;
 }
+
+/*dropdown*/
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(147, 210, 255);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+
+
+}
+
+.dropdown-content a {
+  color: black;
+
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #555555;
+  }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 
 /* Change the link color on hover */
 li a:hover {
@@ -116,6 +153,6 @@ li a:hover {
 }
 
 li.active {
-    background-color: #4CAF50;
+    background-color: rgb(108, 152, 184);
     color: white;
 }
