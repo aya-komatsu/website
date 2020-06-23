@@ -64,6 +64,34 @@ div.desc {
     text-align: center;
 }
 
+/*crew*/
+
+
+div.crew img {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+/*continenten*/
+
+div.continenten{
+    width: 33%;
+    border: 1px solid rgb(184, 184, 184)
+}
+
+
+div.continenten:hover {
+    border: 1px solid #4CAF50
+}
+
+
+div.continenten img {
+    width: 100%;
+    height: auto;
+    float: left; /*werkt niet*/
+}
+
 /*div onze schepen*/
 
 div.schepenLink{
