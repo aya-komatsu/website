@@ -64,6 +64,50 @@ div.desc {
     text-align: center;
 }
 
+
+div.tekst-midden{
+    text-align: center;
+}
+
+div.tekst-middenGroot{
+    text-align: center;
+    size: 20px; /* IK WEET NIET HOE JE DE TEKST GROOTTE AANPAST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+}
+
+div.tekst-rechts{
+    color: rgb(51, 150, 150);`
+    float: none;
+}
+
+/* links in activiteiten */
+div.linksActiviteiten{
+    width: 50%;
+    border: 1px solid rgb(184, 184, 184)
+}
+
+
+div.linksActiviteiten:hover {
+    border: 1px solid #4CAF50
+}
+
+
+div.linksActiviteiten img {
+    width: 100%;
+    height: auto;
+    float: left; /*werkt niet*/
+}
+
+div.desc {
+    text-align: center;
+}
+
+div.descContinenten {
+    text-align: center;   
+    text-size-adjust: 30px;  /*WERKT NIET DUS DE TEKST MOET OOK NOG GROTER GEMAAKT WORDEN*/
+}
+
+
 /*crew*/
 
 
@@ -73,10 +117,18 @@ div.crew img {
     float: left;
 }
 
+/*Zkinderen*/
+
+div.Zkinderen img {
+    width: 50%;
+    height: auto;
+    float: none;
+}
+
 /*continenten*/
 
 div.continenten{
-    width: 33%;
+    width: 100%;
     border: 1px solid rgb(184, 184, 184)
 }
 
