@@ -40,6 +40,10 @@ img.afbeeldingSchip1 {
     width:100%;
 }
 
+header{
+    text-align: center;
+}
+
 /*https://www.w3schools.com/css/css_image_gallery.asp en example is https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery*/
 div.metLink{
     width: 180px;
@@ -152,6 +156,10 @@ div.continenten img {
 
 .afbeeldingen-Amerika {
     width: 40%;
+}
+
+.afbeeldingen-binnen1{
+    width: 100%;
 }
 
 /*div onze schepen*/
