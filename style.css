@@ -144,6 +144,18 @@ div.continenten img {
     float: left; /*werkt niet*/
 }
 
+.afbeeldingen-Europa {
+    width: 40%;
+}
+
+.afbeeldingen-Azie {
+    width: 40%;
+}
+
+.afbeeldingen-Amerika {
+    width: 40%;
+}
+
 /*div onze schepen*/
 
 div.schepenLink{
