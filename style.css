@@ -30,6 +30,7 @@ main {
     position: relative;
 }
 
+
 img.floatLeft {
     
     margin-right: 0px;
@@ -46,8 +47,9 @@ header{
 
 /*https://www.w3schools.com/css/css_image_gallery.asp en example is https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery*/
 div.metLink{
-    width: 180px;
-    border: 1px solid rgb(184, 184, 184)
+    width: 48%;
+    border: 1px solid rgb(184, 184, 184);
+    float: left;
 }
 
 
@@ -84,24 +86,30 @@ div.tekst-rechts{
 
 /* links in activiteiten */
 div.linksActiviteiten{
-    width: 50%;
-    border: 1px solid rgb(184, 184, 184)
+    width: 55%;
+    padding: 10px;
+    border: 1px solid rgb(184, 184, 184);
+        margin: auto;
+
+
 }
 
 
 div.linksActiviteiten:hover {
-    border: 1px solid #4CAF50
+    border: 3px solid #4CAF50
 }
 
 
 div.linksActiviteiten img {
-    width: 100%;
+    width: 90%;
     height: auto;
     float: left; /*werkt niet*/
+    padding: 10px;
 }
 
 div.desc {
     text-align: center;
+        padding: 10px;
 }
 
 div.descContinenten {
@@ -136,7 +144,7 @@ div.continenten{
 
 
 div.continenten:hover {
-    border: 1px solid #4CAF50
+    border: 3px solid #4CAF50
 }
 
 
@@ -170,7 +178,7 @@ div.schepenLink{
 
 
 div.schepenLink:hover {
-    border: 1px solid #4CAF50
+    border: 3px solid #4CAF50
 }
 
 
