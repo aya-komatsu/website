@@ -7,10 +7,7 @@ html, body {
     font: Verdana, Arial, Sans-Serif;
 }
 
-nav {
-    width: 200px;
-   
-}
+
 
 article {
     text-align: justify;
@@ -20,6 +17,7 @@ header {
     color: rgb(52, 98, 184);
     text-align: center;
     background-color:rgb(255, 233, 187);
+    font-family: Georgia, serif;
 }
 
 footer {
@@ -189,9 +187,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
     background-color: #f1f1f1;
-
 }
 
 li a {
@@ -199,7 +195,14 @@ li a {
     color: #000;
     padding: 18px 16px;
     text-decoration: none;
+    float: left;
 }
+
+li.active { /*WERKT NIEEEETTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    background-color: rgb(108, 152, 184);
+    color: white;
+}
+
 
 /*dropdown*/
 
@@ -214,19 +217,16 @@ li.dropdown {
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #f9f9f9;
   min-width: 200px;
-
-
 }
 
 .dropdown-content a {
   color: black;
-
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 .dropdown-content a:hover {
