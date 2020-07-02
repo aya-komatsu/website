@@ -45,7 +45,6 @@ header{
     text-align: center;
 }
 
-/*https://www.w3schools.com/css/css_image_gallery.asp en example is https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery*/
 div.metLink{
     width: 40%;
     border: 1px solid rgb(184, 184, 184);
@@ -62,7 +61,7 @@ div.metLink:hover {
 div.metLink img {
     width: 100%;
     height: auto;
-    float: left; /*werkt niet*/
+    float: left; 
 }
 
 div.desc {
@@ -86,8 +85,8 @@ div.tekst-rechts{
 }
 
 div.tekstMargin {
-    margin-top: 50px; /*WERKT NIET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-    color: #4CAF50;
+    margin-top: 10px; 
+    float: left;
 }
 
 /* links in activiteiten */
@@ -109,19 +108,21 @@ div.linksActiviteiten:hover {
 div.linksActiviteiten img {
     width: 90%;
     height: auto;
-    float: left; /*werkt niet*/
+    float: left; 
     padding: 10px;
 }
 
 div.desc {
     text-align: center;
         padding: 10px;
+        font-size: 1.2em;
 }
 
 div.descContinenten {
     text-align: center;   
-    text-size-adjust: 30px;  /*WERKT NIET DUS DE TEKST MOET OOK NOG GROTER GEMAAKT WORDEN*/
-}
+    font-size: 1.2em; 
+    
+    }
 
 
 /*crew*/
@@ -131,12 +132,14 @@ div.crew img {
     width: 50%;
     height: auto;
     float: left;
+    margin-bottom: 10px;
 }
 
 /*Zkinderen*/
 
+
 div.Zkinderen img {
-    width: 50%;
+    width: 100%;
     height: auto;
     float: none;
 }
@@ -157,7 +160,7 @@ div.continenten:hover {
 div.continenten img {
     width: 100%;
     height: auto;
-    float: left; /*werkt niet*/
+    float: left; 
 }
 
 img.afbeeldingen-Europa {
@@ -220,7 +223,7 @@ li a {
     float: left;
 }
 
-li.active { /*WERKT NIEEEETTT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+li.active {
     background-color: rgb(108, 152, 184);
     color: white;
 }
@@ -271,7 +274,3 @@ li.active {
     color: white;
 }
 
-/*
-    width:233px;
-    height: 35px;
-    line-height: 50%;*/
