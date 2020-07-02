@@ -47,9 +47,10 @@ header{
 
 /*https://www.w3schools.com/css/css_image_gallery.asp en example is https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery*/
 div.metLink{
-    width: 48%;
+    width: 40%;
     border: 1px solid rgb(184, 184, 184);
     float: left;
+    padding: 20px;
 }
 
 
@@ -75,6 +76,7 @@ div.tekst-midden{
 
 div.tekst-middenGroot{
     text-align: center;
+    padding: 20px;
     size: 20px; /* IK WEET NIET HOE JE DE TEKST GROOTTE AANPAST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 }
@@ -82,6 +84,11 @@ div.tekst-middenGroot{
 div.tekst-rechts{
     color: rgb(51, 150, 150);`
     float: none;
+}
+
+div.tekstMargin {
+    margin-top: 50px; /*WERKT NIET!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+    color: #4CAF50;
 }
 
 /* links in activiteiten */
@@ -154,16 +161,16 @@ div.continenten img {
     float: left; /*werkt niet*/
 }
 
-.afbeeldingen-Europa {
-    width: 40%;
+img.afbeeldingen-Europa {
+    width: 100%;
 }
 
 .afbeeldingen-Azie {
-    width: 40%;
+    width: 100%;
 }
 
 .afbeeldingen-Amerika {
-    width: 40%;
+    width: 100%;
 }
 
 .afbeeldingen-binnen1{
