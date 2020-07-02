@@ -77,8 +77,7 @@ div.tekst-midden{
 div.tekst-middenGroot{
     text-align: center;
     padding: 20px;
-    size: 20px; /* IK WEET NIET HOE JE DE TEKST GROOTTE AANPAST!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
+    font-size: 1.5em; 
 }
 
 div.tekst-rechts{
@@ -93,7 +92,7 @@ div.tekstMargin {
 
 /* links in activiteiten */
 div.linksActiviteiten{
-    width: 55%;
+    width: 100%;
     padding: 10px;
     border: 1px solid rgb(184, 184, 184);
         margin: auto;
